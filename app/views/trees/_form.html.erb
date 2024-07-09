@@ -32,13 +32,13 @@
   </div>
 
   <div>
-    <%= form.label :user_id, style: "display: block" %>
-    <%= form.number_field :user_id %>
+    <%= form.label :user_id, style: "display: none" %>
+    <%= form.number_field :user_id, value: current_user.id, style: "display: none" %>
   </div>
 
   <div>
-    <%= form.label :style, style: "display: block" %>
-    <%= form.text_field :style %>
+    <%= form.label :style, style: "display: none" %>
+    <%= form.text_field :style, style: "display: none" %>
   </div>
 
   <div>
