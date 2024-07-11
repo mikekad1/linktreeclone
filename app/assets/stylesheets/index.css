@@ -1,0 +1,29 @@
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.notice {
+    color: white;
+    font-family:'poppins';
+}
+
+.button-1 {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 18px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    color:white;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button-1:hover {
+    background-color: var(--dark);
+}
+
+@media only screen and (max-width: 1067px){
+    
+}
