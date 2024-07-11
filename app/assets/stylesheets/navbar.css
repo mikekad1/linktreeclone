@@ -28,6 +28,7 @@ header {
 
 header * {
     display: inline;
+    padding-right: 10px;
 }
 
 header li {
